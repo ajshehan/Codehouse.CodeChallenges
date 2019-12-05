@@ -49,6 +49,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChallengeOne\BirdTest.cs" />
     <Compile Include="ChallengeZero\GloveMerchantTest.cs" />
     <Compile Include="SampleTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
