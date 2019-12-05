@@ -1,8 +1,6 @@
-﻿using Codehouse.CodeChallenges.Business.ChallengeOne.Behaviours;
-
-namespace Codehouse.CodeChallenges.Business.ChallengeOne.Animals
+﻿namespace Codehouse.CodeChallenges.Business.ChallengeOne.Animals
 {
-    public class Animal: BaseBehaviourAction
+    public class Animal
     {
         public string Colour { get; set; }
         public string Size { get; set; }

@@ -2,7 +2,7 @@
 
 namespace Codehouse.CodeChallenges.Business.ChallengeOne.Animals
 {
-    public class Chicken : Bird, IFlyBheviour
+    public class Chicken : Bird
     {
         private IFlyBheviour FlyBheviour { get; }
 
@@ -15,11 +15,6 @@ namespace Codehouse.CodeChallenges.Business.ChallengeOne.Animals
         public void MakeSound()
         {
             MakeSound(this.Sound);
-        }
-
-        public void Fly()
-        {
-            FlyBheviour.Fly();
         }
     }
 }

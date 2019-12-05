@@ -44,6 +44,7 @@
     <Compile Include="ChallengeOne\Animals\Animal.cs" />
     <Compile Include="ChallengeOne\Animals\Chicken.cs" />
     <Compile Include="ChallengeOne\Animals\Duck.cs" />
+    <Compile Include="ChallengeOne\Animals\Rooster.cs" />
     <Compile Include="ChallengeOne\Behaviours\BaseBehaviourAction.cs" />
     <Compile Include="ChallengeOne\Behaviours\FlyBheviour.cs" />
     <Compile Include="ChallengeOne\Behaviours\IFlyBheviour.cs" />
