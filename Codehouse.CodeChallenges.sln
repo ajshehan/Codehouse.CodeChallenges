@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codehouse.CodeChallenges.Console", "src\ConsoleApp\Codehouse.CodeChallenges.Console.csproj", "{AC7DDC24-4F0F-45B3-91F3-1965A3BA3C6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConsoleApp", "ConsoleApp", "{C2DFD4A0-D5EF-452B-BA2C-1AD8FEEEBD80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{C6C17767-5F97-4EEF-B0B8-1E411EC38430}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codehouse.CodeChallenges.Business", "src\Business\Codehouse.CodeChallenges.Business\Codehouse.CodeChallenges.Business.csproj", "{46921177-3948-4CBB-BFAF-562B0A371049}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codehouse.CodeChallenges.Business.Tests", "src\Business\Codehouse.CodeChallenges.Business.Tests\Codehouse.CodeChallenges.Business.Tests.csproj", "{50A9C412-3E4E-4412-B1E0-3B32D1244857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codehouse.CodeChallenges.One.Console", "Codehouse.CodeChallenges.One.Console\Codehouse.CodeChallenges.One.Console.csproj", "{33161102-AD3F-45BD-8896-3521AAAE8F9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC7DDC24-4F0F-45B3-91F3-1965A3BA3C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC7DDC24-4F0F-45B3-91F3-1965A3BA3C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC7DDC24-4F0F-45B3-91F3-1965A3BA3C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC7DDC24-4F0F-45B3-91F3-1965A3BA3C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46921177-3948-4CBB-BFAF-562B0A371049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46921177-3948-4CBB-BFAF-562B0A371049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46921177-3948-4CBB-BFAF-562B0A371049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46921177-3948-4CBB-BFAF-562B0A371049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50A9C412-3E4E-4412-B1E0-3B32D1244857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A9C412-3E4E-4412-B1E0-3B32D1244857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A9C412-3E4E-4412-B1E0-3B32D1244857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A9C412-3E4E-4412-B1E0-3B32D1244857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33161102-AD3F-45BD-8896-3521AAAE8F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33161102-AD3F-45BD-8896-3521AAAE8F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33161102-AD3F-45BD-8896-3521AAAE8F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33161102-AD3F-45BD-8896-3521AAAE8F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC7DDC24-4F0F-45B3-91F3-1965A3BA3C6F} = {C2DFD4A0-D5EF-452B-BA2C-1AD8FEEEBD80}
+		{46921177-3948-4CBB-BFAF-562B0A371049} = {C6C17767-5F97-4EEF-B0B8-1E411EC38430}
+		{50A9C412-3E4E-4412-B1E0-3B32D1244857} = {C6C17767-5F97-4EEF-B0B8-1E411EC38430}
+		{33161102-AD3F-45BD-8896-3521AAAE8F9A} = {C2DFD4A0-D5EF-452B-BA2C-1AD8FEEEBD80}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EB68662-3816-4A82-9FE6-0D0CF1B5BF99}
+	EndGlobalSection
+EndGlobal
