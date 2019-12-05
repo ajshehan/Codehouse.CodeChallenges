@@ -6,10 +6,16 @@ namespace Codehouse.CodeChallenges.One.Console
     {
         static void Main(string[] args)
         {
-            var bird = new Bird();
-            bird.Walk();
-            bird.Fly();
-            bird.Sing();
+            var chicken = new Chicken();
+            chicken.Walk();
+            chicken.MakeSound();
+
+            System.Console.WriteLine("");
+
+            var duck = new Duck();
+            duck.Walk();
+            duck.Fly();
+            duck.MakeSound();
 
             System.Console.ReadKey();
         }

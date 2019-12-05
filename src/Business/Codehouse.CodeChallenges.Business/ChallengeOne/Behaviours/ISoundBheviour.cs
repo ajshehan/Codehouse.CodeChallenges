@@ -1,7 +1,7 @@
 ﻿namespace Codehouse.CodeChallenges.Business.ChallengeOne.Behaviours
 {
-    public interface IMakeSound
+    public interface ISoundBheviour
     {
-        bool Sing();
+        void MakeSound(string sound);
     }
 }

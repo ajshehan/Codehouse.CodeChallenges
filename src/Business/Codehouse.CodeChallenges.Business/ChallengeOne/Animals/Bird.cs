@@ -2,20 +2,25 @@
 
 namespace Codehouse.CodeChallenges.Business.ChallengeOne.Animals
 {
-    public class Bird : Animal, IMakeSound
+    public class Bird : Animal, IWalkBehaviour, ISoundBheviour
     {
-        public bool Fly()
-        {
-            DoAction("I am flying");
+        private IWalkBehaviour WalkBehaviour { get; }
+        private ISoundBheviour SoundBheviour { get; }
 
-            return true;
+        public Bird()
+        {
+            WalkBehaviour = new WalkBehaviour();
+            SoundBheviour = new SoundBheviour();
         }
 
-        public bool Sing()
+        public void Walk()
         {
-            DoAction($"I am singing");
+            WalkBehaviour.Walk();
+        }
 
-            return true;
+        public void MakeSound(string sound)
+        {
+            SoundBheviour.MakeSound(sound);
         }
     }
 }

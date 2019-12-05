@@ -1,7 +1,7 @@
 ﻿namespace Codehouse.CodeChallenges.Business.ChallengeOne.Behaviours
 {
-    public interface IWalk
+    public interface IWalkBehaviour
     {
-        bool Walk();
+        void Walk();
     }
 }

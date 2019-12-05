@@ -2,18 +2,10 @@
 
 namespace Codehouse.CodeChallenges.Business.ChallengeOne.Animals
 {
-    public class Animal : IWalk
+    public class Animal: BaseBehaviourAction
     {
-        internal void DoAction(string action)
-        {
-            System.Console.WriteLine(action);
-        }
-
-        public bool Walk()
-        {
-            DoAction("I am walking");
-
-            return true;
-        }
+        public string Colour { get; set; }
+        public string Size { get; set; }
+        public string Sound { get; set; }
     }
 }

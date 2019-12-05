@@ -30,7 +30,7 @@ namespace Codehouse.CodeChallenges.Business.Tests.ChallengeOne
         [TestMethod]
         public void Bird_SingTest()
         {
-            var succeeded = _bird.Sing();
+            var succeeded = _bird.MakeSound();
             Assert.IsTrue(succeeded);
         }
     }
