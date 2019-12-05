@@ -2,14 +2,18 @@
 {
     public class Bird : Animal
     {
-        public void Fly()
+        public bool Fly()
         {
             DoAction("I am flying");
+
+            return true;
         }
 
-        public void Sing()
+        public bool Sing()
         {
             DoAction("I am singing");
+
+            return true;
         }
     }
 }

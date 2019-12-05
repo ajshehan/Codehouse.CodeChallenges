@@ -7,9 +7,11 @@
             System.Console.WriteLine(action);
         }
 
-        public void Walk()
+        public bool Walk()
         {
             DoAction("I am walking");
+
+            return true;
         }
     }
 }
