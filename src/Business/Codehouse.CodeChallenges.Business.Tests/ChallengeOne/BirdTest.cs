@@ -1,4 +1,4 @@
-﻿using Codehouse.CodeChallenges.Business.ChallengeOne;
+﻿using Codehouse.CodeChallenges.Business.ChallengeOne.Animals;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Codehouse.CodeChallenges.Business.Tests.ChallengeOne

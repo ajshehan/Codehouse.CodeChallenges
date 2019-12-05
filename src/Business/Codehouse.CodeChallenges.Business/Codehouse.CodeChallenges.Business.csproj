@@ -41,8 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ChallengeOne\Animal.cs" />
-    <Compile Include="ChallengeOne\Bird.cs" />
+    <Compile Include="ChallengeOne\Animals\Animal.cs" />
+    <Compile Include="ChallengeOne\Behaviours\IMakeSound.cs" />
+    <Compile Include="ChallengeOne\Behaviours\IWalk.cs" />
+    <Compile Include="ChallengeOne\Animals\Bird.cs" />
     <Compile Include="ChallengeZero\GloveMerchant.cs" />
     <Compile Include="Sample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

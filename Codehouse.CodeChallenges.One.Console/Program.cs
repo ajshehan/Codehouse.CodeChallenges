@@ -1,4 +1,4 @@
-﻿using Codehouse.CodeChallenges.Business.ChallengeOne;
+﻿using Codehouse.CodeChallenges.Business.ChallengeOne.Animals;
 
 namespace Codehouse.CodeChallenges.One.Console
 {
