@@ -2,9 +2,9 @@
 
 namespace Codehouse.CodeChallenges.Business.ChallengeOne.Animals
 {
-    public class Duck : Bird, IFlyBheviour
+    public class Duck : Bird, IFlyBeheviour
     {
-        private IFlyBheviour FlyBheviour { get; }
+        private IFlyBeheviour FlyBheviour { get; }
 
         public Duck()
         {

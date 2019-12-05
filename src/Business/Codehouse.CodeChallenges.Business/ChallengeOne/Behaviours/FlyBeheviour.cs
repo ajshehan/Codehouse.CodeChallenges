@@ -1,6 +1,6 @@
 ﻿namespace Codehouse.CodeChallenges.Business.ChallengeOne.Behaviours
 {
-    public class FlyBheviour : BaseBehaviourAction, IFlyBheviour
+    public class FlyBheviour : BaseBehaviourAction, IFlyBeheviour
     {
         public void Fly()
         {

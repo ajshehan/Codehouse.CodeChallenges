@@ -4,7 +4,7 @@ namespace Codehouse.CodeChallenges.Business.ChallengeOne.Animals
 {
     public class Chicken : Bird
     {
-        private IFlyBheviour FlyBheviour { get; }
+        private IFlyBeheviour FlyBheviour { get; }
 
         public Chicken()
         {
